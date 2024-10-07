@@ -1,0 +1,46 @@
+body {
+    overflow-y: auto; /* Allow vertical scrolling */
+    
+        
+  }
+  
+  .meta-mall {
+    padding: 400px 20px 20px; /* Increased top padding for better visibility */
+  }
+  
+  .nft-grid {
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: flex-start; /* Align items to the start */
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+  .nft-card img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+  
+  .nft-card {
+    border: 10px solid #a2c8fa;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    width: 150px; /* Set a fixed width for consistent card sizes */
+    height: 380px; /* Reduced height */
+    margin: 20px; /* Add margin for space between cards */
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0dee14;
+    color: rgb(14, 238, 6);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+ 
+  
